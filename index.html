@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="author" content="Constanza Riquelme Villa consta.riquelmev@duocuc.cl">
+  <title>Constanza Riquelme Villa | Desarrolladora y Diseñadora Web</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">
+  <a href="#top" class="logo-link">
+    <span class="icon">&lt;/&gt;</span>
+    <div class="logo-text">
+      <strong>Constanza</strong>
+      <span>Riquelme Villa</span>
+      <small>Diseño & Desarrollo Web</small>
+    </div>
+  </a>
+</div>
+
+
+    <nav class="nav">
+      <a href="#about">Sobre mí</a>
+      <a href="#skills">Habilidades</a>
+      <a href="#projects">Proyectos</a>
+      <a href="#contact">Contacto</a>
+    </nav>
+    
+    <button class="menu-toggle" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+</header>
+
+  <!-- HERO -->
+<main class="hero" id="top">
+  <h1 class="hero-title">DISEÑO Y DESARROLLO WEB</h1>
+  <p class="hero-text">
+    Creo sitios web funcionales, claros y centrados en la experiencia del usuario.
+  </p>
+
+  <a href="#projects" class="hero-button">
+    Ver proyectos
+  </a>
+</main>
+
+
+  <!-- SOBRE MI -->
+  <section id="about" class="section about">
+    <h2 class="section-title">Sobre mí</h2>
+    <p class="section-text">
+      Soy desarrolladora y diseñadora web en formación, enfocada en crear sitios
+      funcionales, claros y accesibles. Me interesa especialmente el diseño centrado
+      en el usuario y el desarrollo front-end, buscando siempre un equilibrio entre
+      estética y usabilidad.
+    </p>
+  </section>
+
+  <!-- HABILIDADES -->
+  <section id="skills" class="section skills">
+    <h2 class="section-title">Habilidades</h2>
+
+    <div class="skills-grid">
+      <div class="skill-card">HTML5</div>
+      <div class="skill-card">CSS3</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">WordPress</div>
+      <div class="skill-card">Diseño UI</div>
+      <div class="skill-card">UX / DCU</div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+<section id="projects" class="section projects">
+  <h2 class="section-title">Proyectos</h2>
+
+  <div class="projects-carousel">
+
+    <button class="carousel-btn prev">‹</button>
+
+    <div class="projects-track">
+
+      <a href="https://constariquelmev.laboratoriodiseno.cl/cuarta-dimension/" target="_blank" class="project-card">
+        <div class="project-image">
+          <img src="assets/img/cuartadimension.png" alt="Proyecto Académico Web">
+        </div>
+        <div class="project-content">
+          <h3>Cuarta Dimensión</h3>
+          <p>Materialización de un sitio web diseñado por creativos gráficos, optimizando su presencia online para la exhibición de sus servicios.</p>
+        </div>
+      </a>
+
+      <a href="https://vidaindependiente.cl" target="_blank" class="project-card">
+        <div class="project-image">
+          <img src="assets/img/vidaindependiente.cl.png" alt="Proyecto en colaboración con Fundación Vida Independiente">
+        </div>
+        <div class="project-content">
+          <h3>Fundación Vida Independiente</h3>
+          <p>Diseño y desarrollo de sitio web como parte de formación académica, aplicando principios de diseño centrado en el usuario.</p>
+        </div>
+      </a>
+
+      <a href="https://www.behance.net/constanriquelm3" target="_blank" class="project-card">
+        <div class="project-image">
+          <img src="assets/img/perfilbehance.png" alt="Portafolio Personal Behance">
+        </div>
+        <div class="project-content">
+          <h3>Portafolio Behance</h3>
+          <p>Portafolio profesional en Behance, mostrando mis proyectos y habilidades de diseño y desarrollo web.</p>
+        </div>
+      </a>
+
+    </div>
+
+    <button class="carousel-btn next">›</button>
+
+  </div>
+</section>
+
+
+  <!-- CONTACTO -->
+  <section id="contact" class="section contact">
+  <h2 class="section-title">Contacto</h2>
+
+  <p class="section-text">
+    ¿Tienes un proyecto o idea en mente?<br>
+    Conversemos.
+  </p>
+
+  <form class="contact-form">
+    <div class="form-group">
+      <label for="name">Nombre</label>
+      <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Correo electrónico</label>
+      <input type="email" id="email" name="email" placeholder="tucorreo@gmail.com" required>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Mensaje</label>
+      <textarea id="message" name="message" rows="5" placeholder="Cuéntame sobre tu idea..." required></textarea>
+    </div>
+
+    <button type="submit" class="contact-button">
+      Enviar mensaje
+    </button>
+  </form>
+</section>
+
+    <!-- FOOTER -->
+<footer class="footer">
+    <p>&copy; <span id="year"></span> Constanza Riquelme Villa. Todos los derechos reservados.</p>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
